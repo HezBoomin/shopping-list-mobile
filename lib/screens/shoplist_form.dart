@@ -18,6 +18,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
   String _name = "";
   int _price = 0;
   String _description = "";
+  DateTime _date_added = DateTime.now();
 
   @override
   Widget build(BuildContext context) {
@@ -130,6 +131,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                                 'price': _price.toString(),
                                 'description': _description,
                                 // TODO: Adjust the fields with your Django model
+                                'date_added': _date_added.toString(),
                               }));
                           if (response['status'] == 'success') {
                             ScaffoldMessenger.of(context)

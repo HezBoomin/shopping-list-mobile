@@ -13,8 +13,7 @@ class ProductPage extends StatefulWidget {
 
 class _ProductPageState extends State<ProductPage> {
   Future<List<Product>> fetchProduct() async {
-    var url =
-        Uri.parse('http://127.0.0.1:8000/json/');
+    var url = Uri.parse('http://127.0.0.1:8000/json/');
     var response = await http.get(
       url,
       headers: {"Content-Type": "application/json"},
@@ -79,7 +78,10 @@ class _ProductPageState extends State<ProductPage> {
                                 Text("${snapshot.data![index].fields.price}"),
                                 const SizedBox(height: 10),
                                 Text(
-                                    "${snapshot.data![index].fields.description}")
+                                    "${snapshot.data![index].fields.description}"),
+                                const SizedBox(height: 10),
+                                Text(
+                                    "${snapshot.data![index].fields.dateAdded}"),
                               ],
                             ),
                           ));
