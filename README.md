@@ -1,16 +1,5 @@
-# shopping_list
+# Hezekial Octora Yudha Tampubolon - 2206046714
 
-A new Flutter project.
+[Public Link](https://install.appcenter.ms/orgs/hez-basement/apps/shopping-list/distribution_groups/public)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![Build status](https://build.appcenter.ms/v0.1/apps/8288d114-6558-4770-9181-6e25a5475928/branches/main/badge)](https://appcenter.ms)
